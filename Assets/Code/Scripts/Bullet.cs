@@ -1,0 +1,53 @@
+using UnityEngine;
+
+public class Bullet : MonoBehaviour
+{
+    [Header("References")]
+    [SerializeField] private Rigidbody2D rb;
+
+    [Header("Attributes")]
+    [SerializeField] private float bulletSpeed = 8f;
+    [SerializeField] private int bulletDamage = 5;
+
+    private Transform target;
+
+    public void SetTarget(Transform _target)
+    {
+        target = _target;
+    }
+
+    private void FixedUpdate()
+    {
+        // Check there is a valid target
+        if (target == null)
+        {
+            return;
+        }
+
+        // Move the bullet and rotate it towards the target
+        Vector2 direction = (target.position - transform.position).normalized;
+        rb.linearVelocity = direction * bulletSpeed;
+        RotateTowardsTarget();
+    }
+
+    // Rotates the bulelt towards the target
+    private void RotateTowardsTarget()
+    {
+        float angle = Mathf.Atan2(target.position.y - transform.position.y, target.position.x - transform.position.x) * Mathf.Rad2Deg;
+        Quaternion targetRotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, bulletSpeed * 50 * Time.deltaTime);
+    }
+
+    // Collision logic
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        other.gameObject.GetComponent<Health>().TakeDamage(bulletDamage);
+        Destroy(gameObject);
+    }
+
+    // Destroy the bullet when it goes of the screen
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
+}

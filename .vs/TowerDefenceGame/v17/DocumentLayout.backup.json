@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Coding Projects\\TowerDefenceGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42FCA8CD-5562-FA76-04F9-896EA5873D85}|Assembly-CSharp.csproj|C:\\Coding Projects\\TowerDefenceGame\\assets\\code\\scripts\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FCA8CD-5562-FA76-04F9-896EA5873D85}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FCA8CD-5562-FA76-04F9-896EA5873D85}|Assembly-CSharp.csproj|C:\\Coding Projects\\TowerDefenceGame\\assets\\code\\scripts\\turretslowmo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FCA8CD-5562-FA76-04F9-896EA5873D85}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\turretslowmo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FCA8CD-5562-FA76-04F9-896EA5873D85}|Assembly-CSharp.csproj|c:\\coding projects\\towerdefencegame\\assets\\code\\scripts\\turrethitscan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FCA8CD-5562-FA76-04F9-896EA5873D85}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\turrethitscan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FCA8CD-5562-FA76-04F9-896EA5873D85}|Assembly-CSharp.csproj|C:\\Coding Projects\\TowerDefenceGame\\assets\\code\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FCA8CD-5562-FA76-04F9-896EA5873D85}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FCA8CD-5562-FA76-04F9-896EA5873D85}|Assembly-CSharp.csproj|C:\\Coding Projects\\TowerDefenceGame\\assets\\code\\scripts\\turretprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FCA8CD-5562-FA76-04F9-896EA5873D85}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\turretprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TurretSlowmo.cs",
+              "DocumentMoniker": "C:\\Coding Projects\\TowerDefenceGame\\Assets\\Code\\Scripts\\TurretSlowmo.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\TurretSlowmo.cs",
+              "ToolTip": "C:\\Coding Projects\\TowerDefenceGame\\Assets\\Code\\Scripts\\TurretSlowmo.cs",
+              "RelativeToolTip": "Assets\\Code\\Scripts\\TurretSlowmo.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T16:58:29.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GridManager.cs",
+              "DocumentMoniker": "C:\\Coding Projects\\TowerDefenceGame\\Assets\\Code\\Scripts\\GridManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\GridManager.cs",
+              "ToolTip": "C:\\Coding Projects\\TowerDefenceGame\\Assets\\Code\\Scripts\\GridManager.cs",
+              "RelativeToolTip": "Assets\\Code\\Scripts\\GridManager.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowFIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T21:57:15.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Coding Projects\\TowerDefenceGame\\Assets\\Code\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "C:\\Coding Projects\\TowerDefenceGame\\Assets\\Code\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Code\\Scripts\\EnemySpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T21:57:11.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TurretProjectile.cs",
+              "DocumentMoniker": "C:\\Coding Projects\\TowerDefenceGame\\Assets\\Code\\Scripts\\TurretProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\TurretProjectile.cs",
+              "ToolTip": "C:\\Coding Projects\\TowerDefenceGame\\Assets\\Code\\Scripts\\TurretProjectile.cs",
+              "RelativeToolTip": "Assets\\Code\\Scripts\\TurretProjectile.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwDcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T21:03:57.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TurretHitscan.cs",
+              "DocumentMoniker": "C:\\Coding Projects\\TowerDefenceGame\\Assets\\Code\\Scripts\\TurretHitscan.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\TurretHitscan.cs",
+              "ToolTip": "C:\\Coding Projects\\TowerDefenceGame\\Assets\\Code\\Scripts\\TurretHitscan.cs",
+              "RelativeToolTip": "Assets\\Code\\Scripts\\TurretHitscan.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAA1wEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T21:03:53.687Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
